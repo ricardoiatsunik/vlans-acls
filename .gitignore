@@ -1,0 +1,20 @@
+# Logs
+*.log
+
+# Temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de backup
+*.bak
+*.tmp
+*~
+
+# Arquivos do EVE-NG
+*.unl
+*.zip
+
+# Pastas ocultas
+.env/
+.vscode/
+.idea/
