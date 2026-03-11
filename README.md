@@ -241,3 +241,11 @@ ip name-server 8.8.8.8
 end
 wr
 ```
+
+## Resultado
+
+O projeto mostrou, de forma prática, como utilizar VLANs, roteamento inter-VLAN e ACLs para segmentar uma rede e aplicar regras básicas de segurança. Cada VLAN representa um segmento separado, permitindo controlar quais redes podem ou não se comunicar entre si.
+
+Com o uso de ACLs, foi possível bloquear o tráfego não autorizado entre as VLANs e permitir acesso apenas quando necessário. Já o NAT permitiu que as redes internas utilizassem a conexão externa, mantendo os endereços privados dentro da rede.
+
+O projeto teve como objetivo principal praticar conceitos fundamentais de redes e segurança, como **segmentação, controle de acesso e organização de tráfego** em ambientes simulados utilizando o EVE-NG.
